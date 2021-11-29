@@ -2,10 +2,43 @@
   box-sizing: border-box;
 }
 
+h6 {
+  color: rgb(70, 70, 70);
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+@font-face {
+  font-family: "Font";
+  src: url(Arimo-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: rgb(70, 70, 70);
+}
+
 header {
   text-align: center;
-  background-color: #eb5c5c;
-  border: #eb5c5c;
+  background-color: #5a58bb;
+  border: #3e3d70;
   border-style: solid;
   padding: 1%;
 }
@@ -18,7 +51,7 @@ button {
 .katter {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 7%;
+  padding-top: 6%;
 }
 
 .item {
@@ -26,23 +59,30 @@ button {
   height: 10%;
 }
 
+/*a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: #eb5c5c;
+  padding: 10px;
+  border: 2px outset black;
+  border-radius: 10px;
+  margin: 10px;
+} */
+
 a {
   display: inline-block;
   text-decoration: none;
   color: black;
-  background-color: #ccc;
-  padding: 10px;
-  border: 2px solid darkgray;
-  border-radius: 10px;
   margin: 10px;
+  background-color: white;
 }
 
 a:hover {
-  color: white;
-  background-color: rgb(99, 93, 93);
+  color: #5a58bb;
 }
 
-b {
+/* huvudinnehåll här! d {
   display: inline-block;
   text-decoration: none;
   color: black;
@@ -54,25 +94,62 @@ b {
   border-radius: 10px;
   margin-top: 5%;
   margin-left: 1%;
-}
+}*/
 
 .item-s {
-  width: 18%;
+  width: 16%;
   padding: 10px;
+  background-color: white;
+  padding-top: 0%;
+  margin-bottom: 1%;
 }
 
 .item-m {
   width: 30%;
   padding: 10px;
+  background-color: white;
+  padding-top: 0%;
+  margin-bottom: 1%;
 }
 
 .item-l {
   width: 48%;
   padding: 10px;
+  background-color: white;
+  padding-top: 1%;
+  margin-bottom: 1%;
 }
 
 .item-l img,
 .item-m img,
 .item-s img {
   width: 100%;
+}
+
+.donate-button {
+  margin-top: 3%;
+  margin-bottom: 0%;
+  padding: 4%;
+}
+
+.botten {
+  background-color: #eb5c5c;
+}
+
+.swish {
+  display: flex;
+  -ms-flex-align: end;
+}
+
+footer {
+  background-color: white;
+}
+
+.two-column-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.intressekatt {
+  text-align: center;
 }
